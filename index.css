@@ -1,0 +1,62 @@
+body{
+    padding:0;
+}
+main{
+    height:300px;
+    width: 50%;
+    background-color: darkcyan;
+    display: flex;
+    gap:10px;
+    padding:10px;
+    padding-left:15px;
+    text-align: center;
+    margin: 4em auto 2em;
+}
+
+#home{
+    background-color: darkred;
+    width:400px;
+} 
+
+#guest{
+    background-color: darkred;
+    width:400px; 
+}
+#min, #sec,
+#guest-score,
+#home-score{
+    width:100px;
+    height:100px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    color: red;
+}
+button{
+    cursor: pointer;
+}
+#Div{
+    display: flex;
+    margin: 1em auto;
+    padding-left:250px;
+    padding-right: 250px;
+}
+footer{
+    text-align: center;
+}
+#start{
+    height: 30px;
+    width:150px;
+    background-color:goldenrod;
+    border-radius: 5px; 
+}
+h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #000;
+}
+header{
+    text-align: center;
+}
